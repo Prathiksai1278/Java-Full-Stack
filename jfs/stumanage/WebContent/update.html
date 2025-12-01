@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head><title>Update Student</title>
+<style>
+body{font-family:Arial;background:#f4f4f4;margin:0;padding:0;}
+.container{max-width:500px;margin:60px auto;background:white;padding:30px;border-radius:8px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);}h2{text-align:center;color:#333;}
+label{display:block;margin-bottom:12px;color:#333;}input,select{width:100%;padding:8px;margin-top:4px;
+border:1px solid #ccc;border-radius:4px;}button{padding:10px 18px;background:#ffc107;border:none;
+border-radius:4px;margin-top:15px;}button:hover{background:#e0a800;}
+</style></head>
+<body>
+<div class="container"><h2>Update Student</h2>
+<form action="update" method="post">
+<label>Roll No:<input type="number" name="rollno" required></label>
+<label>Name:<input type="text" name="name" required></label>
+<label>Age:<input type="number" name="age" required></label>
+<label>Gender:<select name="gender"><option>Male</option><option>Female</option><option>Other</option>
+</select></label><label>Email:<input type="email" name="email" required></label>
+<button type="submit">Update</button></form>
+<a href="index.html">Home</a>
+</div></body></html>
